@@ -1,0 +1,41 @@
+
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+
+  - name: my_second_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+
+  - name: orders_scd_dbt_model
+    description: "orders historically"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+      - name: order_value
+        tests:
+          - not_null
+      - name: order_date
+        tests:
+          - not_null
+      - name: client
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - not_null         
+      - name: updated_at
+        tests:
+          - not_null

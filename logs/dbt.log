@@ -1,0 +1,66 @@
+
+
+============================== 2022-08-05 20:48:16.401359 | e5a20bb4-74cd-4cba-b16a-23f0589078a4 ==============================
+20:48:16.401359 [info ] [MainThread]: Running with dbt=1.1.2
+20:48:16.401359 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\OliviervanderSluis\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt_test_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+20:48:16.402355 [debug] [MainThread]: Tracking: tracking
+20:48:16.419116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235CBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235C430>]}
+20:48:16.424099 [debug] [MainThread]: Starter project path: C:\python\lib\site-packages\dbt\include\starter_project
+20:48:18.161711 [info ] [MainThread]: No sample profile found for sqlserver.
+20:48:18.162708 [info ] [MainThread]: 
+Your new dbt project "dbt_test_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+20:48:18.163767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235CBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002084235CEB0>]}
+
+
+============================== 2022-08-05 20:48:29.881679 | 0a5c6881-3902-49e7-9ce2-2eb6f6b5a102 ==============================
+20:48:29.881679 [info ] [MainThread]: Running with dbt=1.1.2
+20:48:29.881679 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\OliviervanderSluis\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+20:48:29.882667 [debug] [MainThread]: Tracking: tracking
+20:48:29.900679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E2CC190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E2CCAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E2CC370>]}
+20:48:30.040591 [debug] [MainThread]: Executing "git --help"
+20:48:30.068217 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+20:48:30.069178 [debug] [MainThread]: STDERR: "b''"
+20:48:30.074146 [debug] [MainThread]: Acquiring new sqlserver connection "debug"
+20:48:30.075151 [debug] [MainThread]: SQLServer adapter: Using sqlserver connection "debug".
+20:48:30.075151 [debug] [MainThread]: SQLServer adapter: On debug: select 1 as id
+20:48:30.075151 [debug] [MainThread]: Opening a new connection, currently in state init
+20:48:30.075151 [debug] [MainThread]: SQLServer adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=amevi-sql-server.database.windows.net,1433;Database=amevi;UID={o.vandersluis@amevi.nl@amevi-sql-server};PWD=***;Application Name=dbt-sqlserver/1.1.0
+20:48:30.589733 [debug] [MainThread]: SQLServer adapter: Connected to db: amevi
+20:48:30.622591 [debug] [MainThread]: SQLServer adapter: SQL status: OK in 0.55 seconds
+20:48:30.625629 [debug] [MainThread]: On debug: Close
+20:48:30.631506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E6DEBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E6DE370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002778E6DEB20>]}
+20:48:31.168132 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-08-05 21:02:02.635473 | cff92200-3830-4cb5-b60b-00758fb7e2cc ==============================
+21:02:02.635473 [info ] [MainThread]: Running with dbt=1.1.2
+21:02:02.635473 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\OliviervanderSluis\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+21:02:02.636463 [debug] [MainThread]: Tracking: tracking
+21:02:02.655179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46337C280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46337CBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46337C400>]}
+21:02:02.820832 [debug] [MainThread]: Executing "git --help"
+21:02:02.851659 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+21:02:02.851659 [debug] [MainThread]: STDERR: "b''"
+21:02:02.856677 [debug] [MainThread]: Acquiring new sqlserver connection "debug"
+21:02:02.856677 [debug] [MainThread]: SQLServer adapter: Using sqlserver connection "debug".
+21:02:02.856677 [debug] [MainThread]: SQLServer adapter: On debug: select 1 as id
+21:02:02.857635 [debug] [MainThread]: Opening a new connection, currently in state init
+21:02:02.857635 [debug] [MainThread]: SQLServer adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=amevi-sql-server.database.windows.net,1433;Database=amevi;UID={o.vandersluis@amevi.nl@amevi-sql-server};PWD=***;Application Name=dbt-sqlserver/1.1.0
+21:02:03.361669 [debug] [MainThread]: SQLServer adapter: Connected to db: amevi
+21:02:03.392373 [debug] [MainThread]: SQLServer adapter: SQL status: OK in 0.53 seconds
+21:02:03.395430 [debug] [MainThread]: On debug: Close
+21:02:03.401938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46378DC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46378DA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E46378DCD0>]}
+21:02:03.970079 [debug] [MainThread]: Connection 'debug' was properly closed.

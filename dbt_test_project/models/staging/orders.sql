@@ -1,0 +1,1 @@
+select order_id, order_value, order_date from source.orders
